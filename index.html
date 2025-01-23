@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <script>
+            document.write("<h1> Compute the following given a=100 b=18 </h1>");
+        </script>
+    </div>
+
+    <div class="container">
+        <script>
+            var a, b, result
+            a=100;
+            b=10;
+            result= a**b;
+            greater =a>b;
+        </script>
+
+        <h1> Computation for 100 to the power of 10</h1>
+
+            <h1 id="answer1"> </h1>
+
+        <button type="button" onclick="document.getElementById('answer1').innerHTML = 'Answer' + result;"> The Answer </button>    
+    </div>
+    <div class="container">
+        <h1> Is a greater than B?</h1>
+        <p id="answer2"></p>
+        <button type="button" class="btn btn-warning" onclick="document.getElementById('answer2').innerHTML = ' Answer Is ' + greater;">Show Your Life</button>
+    </div>
+<h1> Is a Greater than b? </h1>
+<h1> Is this statement correct (a <= b) && (a >= b)? </h1>
+
+</body>
+</html>
